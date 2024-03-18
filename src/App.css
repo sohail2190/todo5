@@ -1,0 +1,124 @@
+.section-center{
+    width: 60%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+.alert{
+    margin-bottom: 1rem;
+    height: 1.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+.alert-danger{
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+.alert-success{
+    color: #060706;
+    background-color: #7bf157;
+}
+
+.grocery-form h3{
+    color: black;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+
+.grocery{
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    background-color: rgb(238, 238, 238);
+    border-color: transparent;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    color: black;
+}
+
+.grocery::placeholder{
+    color: black;
+}
+
+.submit-btn{
+    background-color: #2563eb;
+    border-color: transparent;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.submit-btn:hover{
+    background-color: #1543a5;
+    color: white;
+}
+
+.grocery-container{
+    margin-top: 2rem;
+}
+
+.grocery-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+    background-color: rgb(238, 238, 238);
+}
+
+.title{
+    margin-bottom: 0;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.edit-btn, .delete-btn, .delete-btn:hover{
+    background-color: indigo;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7rem;
+    margin: 0 0.15rem;
+    border: 1px solid indigo;
+}
+
+.delete-btn, .edit-btn:hover{
+    background-color: transparent;
+}
+
+.clear-btn{
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    background-color: indigo;
+    border-color: transparent;
+    color: white;
+    margin: 0 auto;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
